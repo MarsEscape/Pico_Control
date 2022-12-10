@@ -7,7 +7,7 @@
 #include "ui.h"
 #include "HAL/HAL.h"
 #include "HAL_Button.h"
- 
+//覆盖仓库
 // ESP32Encoder encoder;
 // Display screen;
 // BleKeyboard blekeyboard;
@@ -23,7 +23,7 @@ void setup() {
     Key_Init();  
     Display_Init();                                                  
     // screen.init();                //TFT初始化  缓冲区初始化
-    // screen.setBackLight(0.5);     //设置背光                
+    // screen.setBackLight(0.5);     //设置背光                  
     ui_init();
     xTaskCreate(
         TaskLvglUpdate,
