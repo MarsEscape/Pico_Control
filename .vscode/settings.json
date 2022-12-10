@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "arduino.h": "c",
+        "hal_button.h": "c",
+        "blekeyboard.h": "c"
+    }
+}
