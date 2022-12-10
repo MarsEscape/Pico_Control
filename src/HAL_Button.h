@@ -14,7 +14,7 @@
 
 #define EC11_A_PIN 25
 #define EC11_B_PIN 34
-#define EC11_KEY_PIN 6
+#define EC11_KEY_PIN 35
 #define KEY1_PIN 5
 #define KEY2_PIN 32
 #define KEY3_PIN 33

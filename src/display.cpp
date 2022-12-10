@@ -81,7 +81,7 @@ void Display_Init()
 
 void Power_Shutdown()
 {
-    screen.setBackLight(0.5);  
+    screen.setBackLight(0);  
     delay(100);
     digitalWrite(CONFIG_POWER_EN_PIN, LOW);
 }
